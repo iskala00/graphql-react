@@ -1,0 +1,64 @@
+{
+  "name": "@iskala/graphql-react",
+  "version": "1.0.3",
+  "description": "GraphQL loader and template literal tag for React with Vite, Next.js, webpack and turbopack support",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./loader": {
+      "types": "./dist/loader.d.ts",
+      "import": "./dist/loader.js",
+      "require": "./dist/loader.js"
+    },
+    "./graphql": {
+      "types": "./dist/graphql.d.ts",
+      "import": "./dist/graphql.d.ts",
+      "require": "./dist/graphql.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "README.en.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "bun test",
+    "prepublishOnly": "bun run build",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "graphql",
+    "template-literal",
+    "react",
+    "vite",
+    "nextjs",
+    "webpack",
+    "turbopack",
+    "esm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@types/bun": "latest",
+    "@types/node": "^24.5.2",
+    "semantic-release": "^24.2.9",
+    "tsup": "^8.5.0",
+    "typescript": "^5",
+    "vite": "^7.1.6"
+  },
+  "peerDependencies": {
+    "graphql": "^16.11.0",
+    "typescript": "^5"
+  }
+}
