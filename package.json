@@ -43,9 +43,31 @@
     "nextjs",
     "webpack",
     "turbopack",
-    "esm"
+    "esm",
+    "loader",
+    "apollo-client",
+    "urql",
+    "typescript",
+    "modern",
+    "fast",
+    "zero-dependencies",
+    "tree-shaking",
+    "gql",
+    "graphql-loader"
   ],
-  "author": "",
+  "author": {
+    "name": "iskala00",
+    "email": "iskala00@mail.ru",
+    "url": "https://github.com/iskala00"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iskala00/graphql-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iskala00/graphql-react/issues"
+  },
+  "homepage": "https://github.com/iskala00/graphql-react#readme",
   "license": "MIT",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",

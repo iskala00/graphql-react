@@ -1,8 +1,37 @@
-# GraphQL Лоадер для React
+# 🚀 GraphQL Лоадер для React
 
-> [🇺🇸 English version](./README.en.md)
+[![npm version](https://badge.fury.io/js/@iskala00%2Fgraphql-react.svg)](https://badge.fury.io/js/@iskala00%2Fgraphql-react)
+[![Downloads](https://img.shields.io/npm/dm/@iskala00/graphql-react.svg)](https://www.npmjs.com/package/@iskala00/graphql-react)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/iskala00/graphql-react.svg?style=social&label=Star)](https://github.com/iskala00/graphql-react)
 
-Современный ESM GraphQL лоадер и тег для шаблонных литералов с поддержкой Vite, Next.js (webpack) и Turbopack.
+> [🇺🇸 English version](./README.en.md) | [📦 npm package](https://www.npmjs.com/package/@iskala00/graphql-react)
+
+**Современный ESM GraphQL лоадер и тег для шаблонных литералов** с поддержкой Vite, Next.js (webpack) и Turbopack.
+
+> ⭐ **Поставьте звезду, если этот пакет вам помог!** ⭐
+
+## 📖 Быстрый старт
+
+```bash
+# Установка
+bun add @iskala00/graphql-react graphql
+
+# В Next.js 15+ (Turbopack)
+# next.config.ts
+turbopack: {
+  rules: {
+    '*.{gql,graphql}': {
+      loaders: ['@iskala00/graphql-react/loader'],
+      as: '*.ts',
+    },
+  },
+}
+
+# Использование
+import { gql } from '@iskala00/graphql-react'
+const GET_USER = gql`query GetUser { user { id name } }`
+```
 
 ## ✨ Возможности
 

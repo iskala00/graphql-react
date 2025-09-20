@@ -1,8 +1,37 @@
-# GraphQL Loader for React
+# 🚀 GraphQL Loader for React
 
-> [🇷🇺 Русская версия](./README.md)
+[![npm version](https://badge.fury.io/js/@iskala00%2Fgraphql-react.svg)](https://badge.fury.io/js/@iskala00%2Fgraphql-react)
+[![Downloads](https://img.shields.io/npm/dm/@iskala00/graphql-react.svg)](https://www.npmjs.com/package/@iskala00/graphql-react)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/iskala00/graphql-react.svg?style=social&label=Star)](https://github.com/iskala00/graphql-react)
 
-Modern ESM GraphQL loader and template literal tag with support for Vite, Next.js (webpack), and Turbopack.
+> [🇷🇺 Русская версия](./README.md) | [📦 npm package](https://www.npmjs.com/package/@iskala00/graphql-react)
+
+**Modern ESM GraphQL loader and template literal tag** with support for Vite, Next.js (webpack), and Turbopack.
+
+> ⭐ **Give us a star if this package helped you!** ⭐
+
+## 📖 Quick Start
+
+```bash
+# Installation
+bun add @iskala00/graphql-react graphql
+
+# Next.js 15+ (Turbopack)
+# next.config.ts
+turbopack: {
+  rules: {
+    '*.{gql,graphql}': {
+      loaders: ['@iskala00/graphql-react/loader'],
+      as: '*.ts',
+    },
+  },
+}
+
+# Usage
+import { gql } from '@iskala00/graphql-react'
+const GET_USER = gql`query GetUser { user { id name } }`
+```
 
 ## ✨ Features
 
