@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1](https://github.com/iskala00/graphql-react/compare/v1.1.0...v1.1.1) (2025-09-20)
+
+
+### Bug Fixes
+
+* revert to MIT license ([b455927](https://github.com/iskala00/graphql-react/commit/b4559272577253dd2c1ad4b749d66ab1ea93996b))
+
 # [1.1.0](https://github.com/iskala00/graphql-react/compare/v1.0.0...v1.1.0) (2025-09-20)
 
 
