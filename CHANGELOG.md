@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# 1.0.0 (2025-09-20)
+
+
+### Bug Fixes
+
+* update package name to correct scope [@iskala00](https://github.com/iskala00) ([bced078](https://github.com/iskala00/graphql-react/commit/bced078279f75bb364f82aedf4ad7ded1c983d2a))
+
 ## [Unreleased]
 
 ### Added
