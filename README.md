@@ -18,7 +18,7 @@
 ## 📦 Установка
 
 ```bash
-bun add @iskala/graphql-react graphql
+bun add @iskala00/graphql-react graphql
 ```
 
 ## 🚀 Базовое использование
@@ -26,7 +26,7 @@ bun add @iskala/graphql-react graphql
 ### Шаблонные литералы
 
 ```typescript
-import { gql } from '@iskala/graphql-react'
+import { gql } from '@iskala00/graphql-react'
 
 const GET_USER = gql`
   query GetUser($id: ID!) {
@@ -164,7 +164,7 @@ const query = gql`
 ### Интерполяция в шаблонах
 
 ```typescript
-import { gql } from '@iskala/graphql-react'
+import { gql } from '@iskala00/graphql-react'
 
 const userFields = 'id name email'
 
@@ -282,7 +282,7 @@ bun run dev
 
 ```typescript
 import { useQuery } from '@apollo/client'
-import { gql } from '@iskala/graphql-react'
+import { gql } from '@iskala00/graphql-react'
 
 const GET_USERS = gql`
   query GetUsers {
@@ -315,7 +315,7 @@ function Users() {
 
 ```typescript
 import { request } from 'graphql-request'
-import { gql } from '@iskala/graphql-react'
+import { gql } from '@iskala00/graphql-react'
 
 const query = gql`
   query GetUser($id: ID!) {

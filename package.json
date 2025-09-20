@@ -1,5 +1,5 @@
 {
-  "name": "@iskala/graphql-react",
+  "name": "@iskala00/graphql-react",
   "version": "1.0.3",
   "description": "GraphQL loader and template literal tag for React with Vite, Next.js, webpack and turbopack support",
   "type": "module",
