@@ -31,6 +31,7 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
+    "test": "jest",
     "clean": "rm -rf dist/ tests/temp/ tests/integration-temp/",
     "lint": "echo 'Linting with TypeScript compiler...' && tsc --noEmit",
     "typecheck": "tsc --noEmit",
@@ -75,8 +76,11 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/bun": "latest",
+    "@types/jest": "^29.5.12",
     "@types/node": "^24.5.2",
+    "jest": "^29.7.0",
     "semantic-release": "^24.2.9",
+    "ts-jest": "^29.1.2",
     "tsup": "^8.5.0",
     "typescript": "^5",
     "vite": "^7.1.6"
