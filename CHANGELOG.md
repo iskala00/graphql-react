@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.2.0](https://github.com/iskala00/graphql-react/compare/v1.1.1...v1.2.0) (2025-09-27)
+
+
+### Features
+
+* исправить критические ошибки Vite плагина и улучшить совместимость ([6ef73b8](https://github.com/iskala00/graphql-react/commit/6ef73b8de1cb50d7c54e7d51ea000bb9c16f8892))
+
 ## [1.1.1](https://github.com/iskala00/graphql-react/compare/v1.1.0...v1.1.1) (2025-09-20)
 
 
