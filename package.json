@@ -31,8 +31,10 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "test": "bun test",
-    "prepublishOnly": "bun run build",
+    "clean": "rm -rf dist/ tests/temp/ tests/integration-temp/",
+    "lint": "echo 'Linting with TypeScript compiler...' && tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "bun run clean && bun run build && bun run test",
     "semantic-release": "semantic-release"
   },
   "keywords": [
@@ -56,7 +58,7 @@
     "graphql-loader"
   ],
   "author": {
-    "name": "iskala00",
+    "name": "Ivan Skala",
     "email": "iskala00@mail.ru",
     "url": "https://github.com/iskala00"
   },

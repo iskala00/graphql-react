@@ -16,5 +16,5 @@ export default defineConfig({
   splitting: false,
   bundle: true,
   external: ["graphql"],
-  onSuccess: "cp src/graphql.d.ts dist/graphql.d.ts",
+  onSuccess: "cp types/graphql.d.ts dist/graphql.d.ts",
 });
